@@ -1,0 +1,170 @@
+.header{
+	width: 1200px;
+	margin: 0 auto;
+	/*background: orange;*/
+}
+.header .sctu{
+	width: 380px;
+	height: 36px;
+	padding-top: 39px;
+	float: left;
+	margin-right: 80px;
+	margin-left: 47px;
+	/*margin-bottom: 32px;*/
+}
+.header .sctu img{
+	width: 100%;
+	height: 100%;
+}
+.header p{
+	font-size: 26px;
+	padding-top: 39px;
+	color: #E60012;
+}
+.bjt{
+	width: 100%;
+	height: 536px;
+	background: #A40007;
+	margin-top: 32px;
+}
+.bjt .hydly{
+	width: 1200px;
+	height: 100%;
+	background: url(../../images/loginBg.png) no-repeat;
+	margin: 0 auto;
+}
+.bjt .hydly .crhy{
+	width: 352px;
+	height: 426px;
+	background: white;
+	float: right;
+	margin: 48px 40px;
+}
+.bjt .hydly .crhy .banxin{
+	width: 281px;
+	height: 344px;
+	/*background: orange;*/
+	margin: 51px auto;
+	}
+.bjt .hydly .crhy .banxin .huiyuan{
+	text-decoration: underline;
+	font-size: 18px;
+	color: #667eb5;
+}
+.bjt .hydly .crhy .banxin .zhanghao{
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+	background: url(../../images/loginNum.png) no-repeat;
+	background-size: 100%;
+}
+.bjt .hydly .crhy .banxin .zhanghao input{
+	float: right;
+	height: 81.5%;
+	margin-top: 1px;
+	width: 84.9%;
+	margin-right: 2px;
+	border: none;
+	/*background: yellow;*/
+}
+.bjt .hydly .crhy .banxin .mima{
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	background: url(../../images/loginPass.png) no-repeat;
+	background-size: 100%;
+
+}
+.bjt .hydly .crhy .banxin .qsrzh{
+	margin-left: 40px;
+}
+.bjt .hydly .crhy .banxin .qsrma{
+	display: block;
+	margin-bottom: 28px;
+	margin-left: 40px;
+}
+.bjt .hydly .crhy .banxin .mima input{
+	float: right;
+	height: 81.5%;
+	margin-top: 1px;
+	width: 84.9%;
+	margin-right: 2px;
+	border: none;
+}
+.bjt .hydly .crhy .banxin .fuziwang input{
+	float: left;
+	vertical-align: middle;
+	margin-right: 7px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.bjt .hydly .crhy .banxin .fuziwang .zidongdenglu{
+	float: left;
+	vertical-align: middle;
+	font-size: 14px;
+}
+.bjt .hydly .crhy .banxin .fuziwang .wangjimima{
+	float: right;
+	font-size: 14px;
+}
+.bjt .hydly .crhy .banxin .diushi{
+	width: 100%;
+	height: 26px;
+	margin-top: 74px;
+}
+.bjt .hydly .crhy .banxin .diushi img{
+	width: 100%;
+	height: 100%;
+}
+.bjt .hydly .crhy .banxin .denglu2{
+	margin-top: 25px;
+	width: 100%;
+	height: 49px;
+	background: #FF0000;
+	border: none;
+	color: white;
+	font-size: 16px;
+}
+.fotter{
+	width: 100;
+	height: 196px;
+	clear: both;
+	/*margin-top: 200px;*/
+	/*background: yellow;*/
+}
+.fotter .f_img{
+	width: 859px;
+	height: 138px;
+	margin: 0 auto;
+	padding-top:33px;
+}
+.fotter .f_img img{
+	width: 100%;
+	height: 100%;
+}
+.zuihou{
+	width: 100%;
+	height: 121px;
+	background: #999999;
+}
+.zuihou ul{
+	width: 658px;
+	height: 23px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.zuihou ul li:last-child{
+	border-right: none;
+}
+.zuihou ul li{
+	float: left;
+	margin:0px 21px;
+	border-right: 1px solid white;
+	padding-right: 35px;
+	color: white;
+}
+.zuihou p{
+	text-align: center;
+	margin-top: 24px;
+	color: white;
+}

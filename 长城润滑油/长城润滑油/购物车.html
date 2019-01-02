@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css2/gouWuChe.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<ul>
+				<li><a href="#"><span>Hi,ROOTOO1</span></a></li>
+				<li>目前积分：<span>7864</span></li>
+				<li>退出</li>
+				<li><a href="#">修改密码</a></li>
+				<li><a href="#"><span>返回活动选择页</span></a></li>
+			</ul>
+		</div>
+		<div class="center">
+			<div class="left_img">
+				<img src="images/serveDh.png">
+			</div>
+			<form class="tijiao">
+				<input type="text"  class="left_shuru" id="" value="请输入关键字" />
+				<input type="submit" class="right_sousuo" title="搜索" value=""/>
+			</form>
+			<div class="guanjianzi">
+				<ul>
+					<li>热搜关键词:</li>
+					<li>金吉星</li>
+					<li>机油</li>
+					<li>工作手套</li>
+					<li>POLO衫</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--首页-->
+		<div class="fuqin">
+			<div class="pingDao">
+					<div class="shouYe">
+						<ul class="my_ul">
+		                    <li class="shouYe2"><img class="fl" src="images/indMenuBg.png"><a href="#">首页</a></li>
+		                    <li><a href="#">活动机制</a></li>
+		                    <li><a href="#">下单流程</a></li>
+		                    <li><a href="#">质保机制</a></li>
+		                    <li><a href="#">服务中心</a></li>
+		                    <li><a href="#">订单中心</a></li>                                                                      
+		                </ul>
+					</div>
+					<!--显示隐藏框-->
+					<div class="zonghe">
+						<div class="cpfl">
+							<img src="images/frequeL1.png"/>
+							<a href="#">成品到分类</a>
+						</div>
+						<div class="fengongsi" style="display: none;">
+							<ul id="pin">
+				                <li><img src="images/frequeL3.png"><a href="#">家居生活</a><span class="ml10 colorfff">&gt;</span></li>
+				                <li><img src="images/frequeL2.png"><a href="#">汽车养护</a><span class="ml10 colorfff">&gt;</span></li>
+				                <li><img src="images/frequeL4.png"><a href="#">我要服务</a><span class="ml10 colorfff">&gt;</span></li>
+				                <div class="denglus">
+				                    <img src="images/doubleR.png">
+				                    <a class="denglu2" href="#">分公司查询登陆</a>
+				                </div>
+				            </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dangqianweizhi">
+				<ul>
+					<li>您当前的位置:</li>
+					<li>首页</li>
+					<li>></li>
+					<li>新闻公告</li>
+					<li>></li>
+					<li>长城润滑油开启航天探秘之旅</li>
+				</ul>
+			</div>
+			
+			<!--背景图-->
+			<div class="beijingtu">
+				<img src="images/conBanner.png"/>
+			</div>
+			<h2 class="cplb">产品列表</h2>
+			<!--全选    删除购物车-->
+			<div class="quanxuan">
+				<input type="checkbox" name="" class="Ff"/><label>全选</label>
+				<span class="qingchu">清除购物车</span>
+			</div>
+			<!--商品框架-->
+			<div class="shangPinkj">
+					<table class="shangPinkj2">
+						<tr class="mingcheng">
+							<th>商品名称</th>
+							<th>积分</th>
+							<th>数量</th>
+							<th>小计</th>
+							<th>规则备注</th>
+							<th>操作</th>
+						</tr>
+						<tr class="mingcheng2">
+							<td>
+								<input id=""  class="F1" type="checkbox" name="items" value="1">	
+		                        <a class="img_s" href="#"><img src="images/products3.png" width="90" height="90"></a>
+		                        <span class="niboer">泊尔双胆正品</span>
+							</td>
+							<td id="" class="jifen">52.00</td>
+		                    <td class="shuliang">
+		                        <div class="shuliang2">
+		                            <input class="left_jian" type="button"  value="-" onClick="return boutton(1,1);">
+		                            <input title="1" class="zhong_shu" type="text" value="1">
+		                            <input class="right_jia" type="button" id="" value="+" onClick="return boutton(0,1);">
+		                        </div>
+		                    </td>
+		                    <td class="xiaoji">
+		                    	<span id="" class="spXiaoji" title="1">52.00</span> 积分
+		                    </td>
+		                    <td class="guize">5L白色</td>
+		                    <td class="caozuo">
+		                    	<p class="remove" onClick="delSc(1)"><a href="Javascript:0">删除</a></p>
+		                    </td>
+						</tr>
+						<tr class="mingcheng2" id="shangpin2">
+							<td>
+								<input id=""  class="F1" type="checkbox" name="items" value="1">	
+		                        <a class="img_s" href="#"><img src="images/products3.png" width="90" height="90"></a>
+		                        <span class="niboer">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100</span>
+							</td>
+							<td id="" class="jifen">82.00</td>
+		                    <td class="shuliang">
+		                        <div class="shuliang2">
+		                            <input class="left_jian" type="button"  value="-" onClick="return boutton(1,1);">
+		                            <input title="1" class="zhong_shu" type="text" value="1" maxlength="3" onBlur="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+		                            <input class="right_jia" type="button" id="" value="+" onClick="return boutton(0,1);">
+		                        </div>
+		                    </td>
+		                    <td class="xiaoji">
+		                    	<span id="" class="spXiaoji" title="1">82.00</span> 积分
+		                    </td>
+		                    <td class="guize">直径28cm 、黑色</td>
+		                    <td class="caozuo">
+		                    	<p class="remove" onClick="delSc(1)"><a href="javascript:0">删除</a></p>
+		                    </td>
+						</tr>
+						<tr class="mingcheng2" id="shangpin3">
+							<td>
+								<input id=""  class="F1" type="checkbox" name="items" value="1">	
+		                        <a class="img_s" href="#"><img src="images/products3.png" width="90" height="90"></a>
+		                        <span class="niboer">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器</span>
+							</td>
+							<td id="" class="jifen">82.00</td>
+		                    <td class="shuliang">
+		                        <div class="shuliang2">
+		                            <input class="left_jian" type="button"  value="-" onClick="return boutton(1,1);">
+		                            <input title="1" class="zhong_shu" type="text" value="1" maxlength="3" onBlur="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+		                            <input class="right_jia" type="button" id="" value="+" onClick="return boutton(0,1);">
+		                        </div>
+		                    </td>
+		                    <td class="xiaoji">
+		                    	<span id="" class="spXiaoji" title="1">82.00</span> 积分
+		                    </td>
+		                    <td class="guize">直径28cm 、黑色</td>
+		                    <td class="caozuo">
+		                    	<p class="remove" onClick="delSc(1)"><a href="javascript:0">删除</a></p>
+		                    </td>
+						</tr>
+						
+						<tr>
+		                    <td class="quanxuan_s" colspan="6">
+		                        <input class="Ff" id="QX_S" type="checkbox" name="quanXuan">
+		                        <label class="Ff2" >全选</label>
+		                        <span class="remove" onClick="outDe()">删除</span>
+		                        <div class="fr mr10">
+		                            <p class="fl mr40">已选商品<span class="electNum colorFC0C0C fb f16">0</span>件</p>
+		                            <p class="fl mr40">已选商品总额：<span class="colorFC0C0C fb f16"><em class="totalNum fb f16">0.00</em>积分</span></p>
+		                            <p class="fl">账户余额：<span class="colorFC0C0C fb f16"><em class="fb f16">278.00</em>积分</span></p>
+		                        </div>
+		                   	 </td>
+		                </tr>
+		                
+					</table>
+					<div class="gouwuche">
+		                	<a class="jixugouwu" href="javascript:0"></a>
+		                	<a class="jiesuanzhongxin" href="javascript:0"></a>
+		           	 </div>
+			</div>
+			<div class="fotter">
+				<div class="f_img">
+					<img src="images/foorterImg.jpg"/>
+				</div>
+			</div>
+			<div class="zuihou">
+				<ul>
+					<li>订单帮助</li>
+					<li>礼品售后</li>
+					<li>投诉说明</li>
+					<li>法律声明</li>
+					<li>友情链接</li>
+				</ul>
+				<p>版权所有 沪ICP备120388387号</p>
+			</div>
+		<img id="gun" src="images/result-top-btn.png"/>
+	</body>
+</html>
+<script src="../../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//列表下拉
+	$(function(){
+		
+		$(".cpfl").hover(function(){
+			$(".fengongsi").show();
+		},function(){
+			$('.fengongsi').hide();
+		});
+		$(".fengongsi").hover(function(){
+			$(this).show();
+		},function(){
+			$(this).hide();
+		});
+	});
+	
+	$(function(){	
+	//输入关键字
+	$(".left_shuru").focus(function(){
+		  if($(this).val() ==this.defaultValue){  
+			  $(this).val("").css("color","#333");           
+		  } 
+	}).blur(function(){
+		 if ($(this).val() == '') {
+			$(this).val(this.defaultValue).css("color","#717371");
+		 }
+	});	
+});
+   
+   
+   //删除购物车内容
+   $(function(){
+   	$("tr td a").click(function(){
+   		$(this).parent().parent().parent().remove();
+   	})
+   	$(".qingchu").click(function(){
+   		$('table').remove();
+   	})
+   })
+   
+   //全选
+   $(function(){
+   	var f = false;
+   	$(".Ff").click(function(){
+   	if (f == false) {
+   	 	  $(".F1").attr("checked","checked");
+   	 	  $('table tr').css('background','#f7e5c6');
+   	 	  f = true;
+   	} else{
+   		  $(".F1").removeAttr("checked");
+   	 	  $('table tr').css('background','#FFF');
+   	 	  f = false;
+   	}
+   	})
+   	 
+   })
+   
+   
+   
+   $(function(){
+   	   var sum = 0;
+   	   $(".left_jian").attr("disabled","disabled");
+   	 $(".left_jian").click(function(){
+   	 	sum --;
+   	 	$(".zhong_shu").val(sum);
+   	 	if (sum == 1) {
+   	 		$(".left_jian").attr("disabled","disabled");
+   	 	}
+   	 })
+   	 
+   	 $(".right_jia").click(function(){
+   	 	sum ++;
+   	 	$(".zhong_shu").val(sum);
+   	 	if (sum>1) {
+   	 		$(".left_jian").removeAttr("disabled");
+   	 	}
+   	 	
+   	 })
+   })
+   
+   
+   //返回顶部
+ var $backToTopTxt = "", $backToTopEle = $("#gun").appendTo($("body"))
+		.text($backToTopTxt).attr("title", $backToTopTxt).click(function() {
+			$("html, body").animate({ scrollTop: 0 }, 120);
+	}), $backToTopFun = function() {
+		var st = $(document).scrollTop(), winh = $(window).height();
+		(st > 0)? $backToTopEle.show(): $backToTopEle.hide();
+		//IE6下的定位
+		if (!window.XMLHttpRequest) {
+			$backToTopEle.css("top", st + winh - 166);
+		}
+	};
+	$(window).bind("scroll", $backToTopFun);
+	$(function() { $backToTopFun(); });	
+</script>
