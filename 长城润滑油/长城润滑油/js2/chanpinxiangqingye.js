@@ -42,20 +42,28 @@ $(function(){
 	})
 	//test框加减
 	var b=1;
-	$(".deswa span:first-child").click(function(){
+	$(".jia").click(function(){
 		b++;
-		$(".input_val").val(b)
-		
+		$(".gmsl").val(b)
 	})
-	$(".deswa span:last-child").click(function(){
+	$(".jian").click(function(){
 		b--;
 		if (b<=1) {
 			b=1;
-			
 		}
-		
-		$(".input_val").val(b)
-		
-		
+		$(".gmsl").val(b)
 	})
+});
+
+//选择类型  属性
+$(".ml10 ul li").click(function(){
+	var index = $(this).index();
+	$(this).addClass("xzx").siblings().removeClass("xzx");
+	
+});
+//显微镜边框
+$(".Fdj3 ul li").hover(function(){
+	var index = $(this).index();
+	$(this).addClass("xwj").siblings().removeClass("xwj");
+//	$("Fdj2 img").eq(index).show().siblings("li").hide();
 });

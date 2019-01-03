@@ -215,7 +215,7 @@
 .Fdj{
 	width: 1100px;
 	height: 515px;
-	background: yellow;
+	/*background: yellow;*/
 	margin-bottom: 30px;
 	margin-left: 100px;
 }
@@ -231,6 +231,14 @@
 	background: red;
 	border: 1px solid #A9A9A8;
 	/*float: left;*/
+}
+.Fdj .Fd .Fdj2 img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.Fdj .Fd .Fdj2 img:first-child{
+	display: block;
 }
 .Fdj .Fd .Fdj3{
 	width: 436px;
@@ -248,13 +256,19 @@
 	float: left;
 	margin: 10px 0px 0 22px;
 }
+.Fdj .Fd .Fdj3 ul .xwj{
+	border: 2px solid black;
+}
+.Fdj .Fd .Fdj3 ul li img{
+	width: 100%;
+}
 .Fdj .Fd .Fdj3 ul li:last-child{
 	margin-right: 0;
 }
 .Fdj .Apple{
 	width: 558px;
 	height: 423px;
-	background: orange;
+	/*background: orange;*/
 	float: right;
 	margin-left: 50px;
 }
@@ -266,7 +280,7 @@
 .Fdj .Apple .cuxiao{
 	width: 510px;
 	height: 115px;
-	background-color: #0056A9;
+	/*background-color: #0056A9;*/
     color: #FFF;
 	line-height: 115px;
     font-size: 36px;
@@ -304,6 +318,25 @@
     line-height: 28px;
     text-align: center;
     margin-bottom: 10px;
+    /*background: url(../../images/tb-selected-b.gif) no-repeat;
+	background-position: right bottom; */
+}
+.Fdj .Apple .font_fam .ml10 ul li:hover{
+	border: 2px solid red;
+}
+/*.Fdj .Apple .font_fam .ml10 ul li b{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    
+    margin: -8px 0 0 12px;
+    display: none;
+}*/
+.Fdj .Apple .font_fam .ml10 ul .xzx{
+    background: url(../../images/tb-selected-b.gif) no-repeat;
+    background-position: right bottom;
+    /*background: #FFFFFF;*/
+    border: 2px solid red;
 }
 .Fdj .Apple .goumai .xuan{
 	margin-top: 17px;
@@ -311,7 +344,7 @@
 .Fdj .Apple .goumai .ml10{
     width: 220px;
     height: 32px;
-    background: red;
+    /*background: red;*/
     margin-top: 10px;
      float: left;
 }
@@ -356,7 +389,7 @@
 .Fdj .Apple .jiagou .jiagou2{
 	width: 558px;
 	height: 81px;
-	background: gray;
+	/*background: gray;*/
 	margin-top: -30px;
 }
 .Fdj .Apple .jiagou .jiagou2 .jrgwc{
