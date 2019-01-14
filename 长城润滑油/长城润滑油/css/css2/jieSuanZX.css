@@ -74,13 +74,13 @@
 }
 .center .guanjianzi ul li{
 	float: left;	
-	margin-left: 14px;
+	margin-left: 6px;
 	color: #666666;
 }
 .pingDao{
 	width: 100%;
 	height: 40px;
-	background: #005BAC;
+	background: black;
 	/*padding-top: 10px;*/
 	/*padding-bottom: 10px;*/
 	/*color: white;*/
@@ -124,13 +124,13 @@
 	width: 230px;
 	height: 457px;
 	/*background: #005BAC;*/
-	margin-left: 150px;
+	margin-left: 70px;
 	padding-top: 13px;
 } 
 .zonghe .cpfl{
 	width: 100%;
 	height: 29px;
-	background: #005BAC;
+	/*background: black;*/
 	margin-top: -3px;
 	
 }
@@ -155,7 +155,7 @@
 .zonghe .fengongsi ul{
 	width: 230px;
 	height: 421px;
-	background-color: #005BAC;
+	background-color: red;
 	
 }
 .zonghe .fengongsi ul li{
@@ -176,7 +176,7 @@
 	width: 253px;
     height: 53px;
     line-height: 53px;
-    background-color: #0773D3;
+    background-color: red;
     margin: 155px 0 0 -11px;
     z-index: 999;
 }
@@ -223,27 +223,26 @@
 .cplb{
 	width: 114px;
 	height: 34px;
-	background: #005BAA;
+	background: red;
 	font-size: 16px;
 	color: white;
 	text-align: center;
 	line-height: 34px;
-	margin: 15px 0 0 152px;
+	margin: 15px 0 0 85px;
 }
 .shangPinkj{
 	width: 1200px;
 	/*height: 83%;*/
 	border: 1px solid #bbb4b4;
-	margin: 56px auto;
-	/*border-bottom: none;*/
-	/*background: orange;*/
+	margin: 15px auto;
+	padding-bottom: 8px;
 }
 .shangPinkj .shangPinkj2{
 	width: 1180px;
 	margin: 0 auto;
 	border: 1px solid #BBB4B4;
 	border-bottom: none;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 .shangPinkj .shangPinkjs{
 	margin-top: 10px;
@@ -289,19 +288,16 @@
 	/*width: 302px;*/
 }
 .shangPinkj .shangPinkj2 .mingcheng th:first-child{
-	width: 302px;
+	width: 356px;
 }
 .shangPinkj .shangPinkj2 .mingcheng th:nth-child(2){
-	width: 157px;
-}
-.shangPinkj .shangPinkj2 .mingcheng th:nth-child(3){
 	width: 172px;
 }
-.shangPinkj .shangPinkj2 .mingcheng th:nth-child(4){
-	width: 152px;
+.shangPinkj .shangPinkj2 .mingcheng th:nth-child(3){
+	width: 189px;
 }
-.shangPinkj .shangPinkj2 .mingcheng th:nth-child(5){
-	width: 197px;
+.shangPinkj .shangPinkj2 .mingcheng th:nth-child(4){
+	width: 183px;
 }
 .shangPinkj .shangPinkj2 .mingcheng2{
 	width: 100%;
@@ -316,19 +312,16 @@
 	border-top: none;
 }
 .shangPinkj .shangPinkj2 .mingcheng2 td:first-child{
-	width: 302px;
+	width: 356px;
 }
 .shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(2){
-	width: 157px;
-}
-.shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(3){
 	width: 172px;
 }
-.shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(4){
-	width: 152px;
+.shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(3){
+	width: 189px;
 }
-.shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(5){
-	width: 197px;
+.shangPinkj .shangPinkj2 .mingcheng2 td:nth-child(4){
+	width: 183px;
 }
 .shangPinkj .shangPinkj2 .mingcheng2 .F1{
 	/*line-height: 120px;*/
@@ -341,7 +334,7 @@
 	margin-left: 20px;
 }
 .shangPinkj .shangPinkj2 .mingcheng2 .niboer{
-	font-size: 12px;
+	font-size: 14px;
 	color: #666666;
 	display: block;
 	margin-top: 15px;
@@ -369,44 +362,379 @@
 	text-align: center;
 	font-size: 14px;
 }
-.shangPinkj .shangPinkj2 #shangpin2 .niboer{
-	line-height: 25px;
-	font-size: 13px;
+.zonge{
+
 }
-.shangPinkj .shangPinkj2 #shangpin3 .niboer{
-	line-height: 25px;
-	font-size: 13px;
+.zonge td{
+	height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+	border: 1px solid #bbb4b4;
 }
-.shangPinkj .quanxuan_s{
-	padding: 15px 0 10px 0;
+.zonge p{
+	margin-left: 50px;
+    margin-right: 40px;
+    float: left;
+    font-size: 18px;
+    /*line-height: 30px;*/
 }
-.shangPinkj .gouwuche{
-	width: 100%;
-	height: 73px;
-	/*background: black;*/
-	/*border: 1px solid #bbb4b4;*/
+.zonge p span{
+	color: red;
+	font-weight: bold;
 }
-.shangPinkj .gouwuche .jixugouwu{
-	display: block;
-	width: 189px;
-	height: 56px;
-	margin: 20px 0 0 28px;
-	background: url(../../images/immedOrder.png) no-repeat;
-	background-position: 5px 5px;
-	/*border: none;*/
+.cplb2{
+	float: left;
+	margin-top: 0px;
 }
-.shangPinkj .gouwuche .jiesuanzhongxin{
-	display: block;
+.cplb3{
 	float: right;
-	width: 189px;
-	height: 56px;
-	margin: -53px 28px 0 0;
-	background: url(../../images/immedOrder.png) no-repeat;
-	background-position: 5px -97px;
+	width: 466px;
+	height: 34px;
+	background: red;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	margin: 0 152px 0 0;
 }
-.shangPinkj .booer2{
-	margin-bottom: 20px;
+.shouH{
+	width: 1200px;
+	margin: 68px auto;
+	
 }
+.shouH .dizhi{
+	width: 100%;
+	height: 39px;
+	border: 1px solid #bbb4b4;
+	border-bottom: none;
+}
+.shouH .dizhi p{
+	padding-left: 25px;
+	font-size: 16px;
+    line-height: 38px;
+}
+.shouH .wyh{
+	width: 100%;
+	height: 75px;
+	/*background: yellow;*/
+	border: 1px solid #bbb4b4;
+	border-bottom: none;
+}
+.shouH .wyh:last-child{
+	border-bottom: 1px solid #bbb4b4;
+}
+.shouH .wyh .wyh2{
+	width: 1138px;
+	height: 100%;
+	margin-left: 62px;
+	/*background: red;*/
+}
+.shouH .wyh .wyh2 .fuxu{
+	margin-right: 15px;
+    margin-top: 11px;
+    float: left;
+    cursor: pointer;
+}
+ .shouH .wyh .wyh2 .xinxis{
+ 	font-size: 15px;
+ 	padding-top: 8px;
+ } 
+.shouH .wyh .wyh2 .XS{
+	width: 66px;
+    height: 22px;
+    border-radius: 3px;
+    text-align: center;
+    border: solid 1px #AAA3A3;
+    background-color: #F1F1F1;
+    margin: 10px 10px 0 40px;
+    cursor: pointer;
+    line-height: 22px;
+    font-size: 12px;
+}  
+.shouH .wyh .wyh2 .shanchu{
+	margin-left: 0px;
+}
+.shouH .wyh .wyh2 .xinzeng{
+	float: right;
+	cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    /*position: absolute;*/
+    font-size: 14px;
+    background-color: #E10012;
+    padding: 5px 12px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 5px;
+}   
+.shangPinkj .peisong .mingcheng th:first-child{
+	width: 282px;
+}
+.shangPinkj .peisong .mingcheng th:nth-child(2){
+	width: 704px;
+} 
+.shangPinkj .songhuo{
+	border: 1px solid #bbb4b4;
+}
+.shangPinkj .songhuo td{
+	border: 1px solid #bbb4b4;
+}    
+.shangPinkj .songhuo td .putong{
+	display: block;
+	float: left;
+	margin: 12px 10px 10px 20px;
+}
+.shangPinkj .songhuo td .jifens{
+	padding-top: 10px;
+	font-size: 14px;
+}
+.shangPinkj .songhuo td .ptsh{
+	font-size: 14px;
+	padding-top: 6px;
+	padding-left: 30px;
+}
+.shangPinkj .songhuo td .jf_0{
+	font-size: 14px;
+	text-align: center;
+}
+.cs{
+	margin-top: -50px;
+}
+.cs2{
+	margin-top: 18px;
+}
+.shangPinkj .shangPinkj2 .n_1{
+	width: 180px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.shangPinkj .shangPinkj2 .n_2{
+	width: 456px;
+	height: 31px;
+	line-height: 31px;
+}
+.shangPinkj .shangPinkj2 .n_2 input{
+	width: 456px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 35px;
+	border: none;
+}
+.shangPinkj .shangPinkj2 .n_3{
+	width: 180px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.shangPinkj .shangPinkj2 .n_4{
+	width: 436px;
+	height: 31px;
+	line-height: 31px;
+}
+.shangPinkj .shangPinkj2 .n_4 input{
+	width: 370px;
+	height: 31px;
+	line-height: 31px; 	
+	padding-left: 35px;
+	border: none;
+}
+.shouH .wyh .asd{
+	width: 183px;
+    height: 50px;
+    background: url(../../images/redImages/fyzj_Tabfist.jpg) no-repeat 1px 0px;
+    margin: 10px auto;
+}
+
+.XG{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: url(../../images/blackBg.png);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+.XG .XG2{
+	border: solid 1px #D6B8B8;
+    background-color: #FFFFFF;
+    width: 837px;
+    height: 350px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 112;
+}
+.XG .XG2 .xgdz{
+	padding-left: 10px;
+    color: #7b6e6e;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #D6B8B8;
+    font-size: 14px;
+    float: left;
+    padding-right: 434px;
+    color: black;
+}
+.XG .XG2 .xgdz span{
+	color: #7b6e6e;
+	/*font-size: 12px;*/
+	margin-left: 10px;
+}
+.XG .XG2 .xx{
+	display: block;
+	position: relative;
+	float: right;
+	margin: -40px 30px 0 0;
+	font-size: 28px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.XG .XG2 .ren{
+	width: 95%;
+	height: 260px;
+	/*background: orange;*/
+	margin: 55px 0 0 5%;
+}
+.XG .XG2 .ren .shr2{
+	margin-left: 15px;
+	float: left;
+	margin-right: 20px;
+}
+.XG .XG2 .ren .shr{
+    border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px;
+}
+.XG .XG2 .ren .xm{
+	display: block;
+	padding-top: 5px;
+}
+.XG .XG2 .ren .dq{
+	clear: both;
+	float: left;
+	margin: 20px 10px 20px 28px;
+}
+.XG .XG2 .ren .selectH{
+	margin-top: 15px;
+    border: solid 1px #DDD5D5;
+    position: relative;
+    z-index: 9;
+    height: 22px;
+    line-height: 22px;
+}
+.XG .XG2 .ren .dz{
+	display: block;
+	padding-top: 19px;
+}
+.XG .XG2 .ren .jddq{
+	clear: both;
+	/*margin-top: 20px;*/
+	float: left;
+}
+.XG .XG2 .ren .jddq input{
+    width: 325px;
+    border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.XG .XG2 .ren .jddz{
+	float: right;
+	padding-top: 6px;
+	margin-right: 70px;
+}
+.XG .XG2 .ren .yz{
+	clear: both;
+	float: left;
+}
+.XG .XG2 .ren .yz input{
+	border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px; 
+    margin-right: 10px;
+}
+.XG .XG2 .ren .yzbm{
+	display: block;
+	padding-top: 71px;
+	
+}
+.XG .XG2 .ren .sj{
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	margin-left: 28px;
+	margin-right: 25px;
+}
+.XG .XG2 .ren .sj input{
+    border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px;
+}
+.XG .XG2 .ren .dh{
+	margin-top: 22px;
+	float: left;
+}
+.XG .XG2 .ren .dh input{
+    border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px;
+}
+.XG .XG2 .ren .gddh{
+	display: inline-block;
+	margin-top: 32px;
+	padding-left: 15px;
+}
+.XG .XG2 .ren .DZ{
+	clear: both;
+	margin: 20px 5px 0 63px;
+}
+.XG .XG2 .ren .DZ input{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.XG .XG2 .ren span{
+	color: red;
+}
+.XG .XG2 .ren .bc{
+	width: 65px;
+    height: 20px;
+    border: solid 1px #AAA3A3;
+    background-color: #E5E5E5;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+    margin: 15px 0 0 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fotter{
 	width: 100;
 	height: 196px;
